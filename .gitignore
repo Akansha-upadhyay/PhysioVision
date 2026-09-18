@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Conda
+.conda/
+conda-meta/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.*
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Coverage Reports
+.coverage
+htmlcov/
+
+# Model Files (Large AI Models)
+models/
+checkpoints/
+weights/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Dataset Files
+data/raw/
+data/processed/
+datasets/
+*.csv
+*.xlsx
+*.zip
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Output Files
+outputs/
+results/
+predictions/
+
+# Node Modules (if frontend exists)
+node_modules/
+
+# Generated Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# System Files
+Thumbs.db
