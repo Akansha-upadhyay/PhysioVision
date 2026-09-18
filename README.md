@@ -35,23 +35,66 @@ PhysioVision solves this problem by providing:
 - Provide rehabilitation progress analytics.
 ---
 ## ✨ Features
-| Feature | Description |
-| --- | --- |
-| Patient Registration | Register physiotherapy patients and store their exercise sessions. |
-| Real-time Pose Detection | Detect human body posture using MediaPipe |
 
-| Multi-Exercise Tracking
-| Currently supported: |
-| - Arm Curl |
-| - Shoulder Raise |
-| - Knee bend |
-| Angle Calculation | Calculate joints angle for body movements |
-| Repetition Counter | Automatically count the number of repetitions for each exercise. |
-| Exercise Evaluation | Evaluate how correctly the patients perform the exercise. |
-| Session Management | Store exercise sessions in a SQLite database. Each session contains patient name, type of exercise performed, number of repetitions, accuracy percentage and the date of the session. |
-| Analytics Dashboard | A dashboard displaying the total number of sessions, average accuracy, total number of repetitions, type of sessions, and an accuracy distribution. |
-| Patient History | View patients' past physiotherapy exercise sessions. |
-| PDF Report Generation | Generate physiotherapy progress reports as PDF |
+### 👤 Patient Registration
+- Register physiotherapy patients.
+- Store patient information.
+- Track exercise sessions per patient.
+
+### 📷 Real-Time Pose Detection
+- Uses MediaPipe Pose Estimation.
+- Detects body landmarks from webcam feed.
+- Tracks posture during exercises.
+
+### 💪 Multi-Exercise Support
+
+Currently supported exercises:
+
+1. Arm Curl
+2. Shoulder Raise
+3. Knee Bend
+
+### 📐 Joint Angle Calculation
+- Calculates body joint angles.
+- Provides movement analysis.
+- Supports exercise-specific tracking.
+
+### 🔢 Repetition Counter
+- Automatically counts repetitions.
+- Detects complete movement cycles.
+- Tracks exercise progress.
+
+### 🧠 Exercise Evaluation
+- Evaluates exercise correctness.
+- Provides real-time feedback.
+- Detects improper movement patterns.
+
+### 🗄️ Session Management
+- Stores exercise sessions in SQLite.
+- Records:
+  - Patient Name
+  - Exercise Type
+  - Repetitions
+  - Accuracy
+  - Session Date
+
+### 📊 Analytics Dashboard
+- Total Sessions
+- Total Repetitions
+- Average Accuracy
+- Exercise Distribution
+- Session History
+- Accuracy Trends
+
+### 📋 Patient History
+- View historical exercise sessions.
+- Filter patient records.
+- Monitor rehabilitation progress.
+
+### 📄 PDF Report Generation
+- Generate patient progress reports.
+- Download reports for therapists and patients.
+
 ---
 
 ## 🏗️ System Architecture
